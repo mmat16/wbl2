@@ -163,8 +163,8 @@ type item struct {
 
 type items []*item
 
-func (i items) Len() int {
-	return len(i)
+func (it items) Len() int {
+	return len(it)
 }
 
 func (it items) Less(i, j int) bool {

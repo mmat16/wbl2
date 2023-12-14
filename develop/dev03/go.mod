@@ -1,4 +1,4 @@
-module wbl2
+module mySort
 
 go 1.21.1
 
